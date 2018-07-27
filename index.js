@@ -1,9 +1,9 @@
 function destructivelyAppendKitten(name){
-  kittens.push('Ralph')
+  kittens.push(name)
   return kittens
 }
 function destructivelyPrependKitten(name){
-  kittens.unshift('Bob')
+  kittens.unshift(name)
   return kittens
 }
 function destructivelyRemoveLastKitten(){
@@ -13,6 +13,6 @@ function destructivelyRemoveFirstKitten(){
   return kittens.shift()
 }
 function appendKitten(name){
-  [...kittens, "Broom"]
+  [...kittens, name]
   return kittens 
 }
